@@ -1,5 +1,8 @@
 package com.example.practica2
+//se usa this.filter{!it.startsWuth("[X]")}
+//for ((i,t) in tareas.withIndex()) devuelve en i el indice y en t la tarea
 //Defini la lista mutabla donde se guardarán las tareas
+//tareas.indice es una propiedad que devuelve el rango de posiciones válidas de una colección o array (0..size-1).
 val listaTareas = mutableListOf<String>()
 fun main() {
     menu()

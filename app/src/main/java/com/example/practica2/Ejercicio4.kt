@@ -1,14 +1,17 @@
 package com.example.practica2
 
 //validador de contraseñas
+
 fun main(){
+
     validador()
 }
 fun validador() {
     do {
+        var continuar = true
+        var contrasenia=""
         println("Escribe la constraseña")
-    var contrasenia = readLine() ?: ""
-    var continuar = true
+        contrasenia= readln() ?: ""
         if (contrasenia.length >= 8) {
             if (contrasenia.any { it.isUpperCase() }) {
                 if (contrasenia.any { it.isLowerCase() }) {

@@ -1,5 +1,5 @@
 package com.example.practica2
-//Estoy contando los espacios, cómo quito eso?
+//caracter.isLetter()
 var frecuencia = mutableMapOf<Char, Int>()
 fun main (){
     println("Escribe el texto para calcular la frecuencia de las letras: ")

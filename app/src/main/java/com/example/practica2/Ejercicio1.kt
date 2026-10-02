@@ -2,6 +2,10 @@ package com.example.practica2
 fun main() {
     csv()
 }
+//"\t" añade un tabulador
+//ejemplo: encabezados.joinToString{"\n"}
+//drop(n) devuelve una nueva colección sin los primeros n elementos. Se usa en listas, arrays, strings y secuencias.
+// notas.average() para calcular la media
 fun csv(){
     var notas = """nombre,nota1,nota2,nota3
                     Ana,7,8,9
